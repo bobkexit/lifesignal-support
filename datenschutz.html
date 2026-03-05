@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung — LifeSignal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0d0f14;
+            --bg-card: rgba(255,255,255,0.04);
+            --border-card: rgba(255,255,255,0.08);
+            --text-primary: #e8eaed;
+            --text-secondary: #9aa0a8;
+            --accent-blue: #7399FF;
+            --font: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        .back-link:hover { text-decoration: underline; }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            margin-bottom: 8px;
+        }
+        .date {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 19px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 12px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 8px;
+        }
+        p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+        ul {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 14px;
+            padding-left: 24px;
+        }
+        li { margin-bottom: 6px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px;
+            font-size: 14px;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border-card);
+        }
+        th {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        td { color: var(--text-secondary); }
+        strong { color: var(--text-primary); font-weight: 600; }
+        a { color: var(--accent-blue); }
+        .highlight {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .highlight p { margin-bottom: 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index-de.html" class="back-link">← Zurück zu LifeSignal</a>
+
+        <h1>Datenschutzerklärung</h1>
+        <p class="date">Gültig ab: 1. März 2026</p>
+
+        <div class="highlight">
+            <p><strong>Kurzfassung:</strong> LifeSignal verwendet anonyme Authentifizierung. Wir benötigen weder deine E-Mail-Adresse noch deine Telefonnummer oder sonstige persönliche Daten, um die App zu nutzen. Wir verkaufen keine Daten. Wir zeigen keine Werbung. Wir tracken dich nicht.</p>
+        </div>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>
+            LifeSignal („die App") wird entwickelt und betrieben von Nikolay Matorin, einem unabhängigen Entwickler mit Sitz in Deutschland. Diese Datenschutzerklärung erläutert, wie wir deine Daten erheben, verwenden und schützen, wenn du die LifeSignal iOS-App nutzt.
+        </p>
+        <p>
+            <strong>Kontakt:</strong><br>
+            Nikolay Matorin<br>
+            E-Mail: <a href="mailto:lifesignal.app@gmail.com">lifesignal.app@gmail.com</a>
+        </p>
+
+        <h2>2. Authentifizierung</h2>
+        <p>
+            LifeSignal verwendet <strong>anonyme Authentifizierung</strong> über Firebase Authentication. Beim ersten Start der App wird automatisch ein anonymes Konto erstellt. Das bedeutet:
+        </p>
+        <ul>
+            <li>Keine E-Mail-Adresse erforderlich</li>
+            <li>Kein Passwort erforderlich</li>
+            <li>Keine Telefonnummer erforderlich</li>
+            <li>Kein Social-Media-Login erforderlich</li>
+        </ul>
+        <p>
+            Dein Konto wird ausschließlich durch eine zufällig generierte Benutzer-ID (UID) identifiziert, die nicht auf deine reale Identität zurückgeführt werden kann.
+        </p>
+
+        <h2>3. Welche Daten wir erheben</h2>
+        <p>Wir erheben nur das, was für die Funktionalität der App notwendig ist. Hier eine vollständige Übersicht:</p>
+
+        <h3>3.1 Daten, die du bereitstellst</h3>
+        <table>
+            <tr>
+                <th>Daten</th>
+                <th>Pflicht?</th>
+                <th>Zweck</th>
+            </tr>
+            <tr>
+                <td>Anzeigename</td>
+                <td>Optional</td>
+                <td>Wird deinen Begleitern angezeigt, damit sie dich erkennen</td>
+            </tr>
+            <tr>
+                <td>Name des Begleiters</td>
+                <td>Optional</td>
+                <td>Deine Bezeichnung für einen hinzugefügten Begleiter</td>
+            </tr>
+            <tr>
+                <td>E-Mail des Begleiters</td>
+                <td>Optional</td>
+                <td>Deine Referenzinfo für einen hinzugefügten Begleiter</td>
+            </tr>
+            <tr>
+                <td>Telefon des Begleiters</td>
+                <td>Optional</td>
+                <td>Deine Referenzinfo für einen hinzugefügten Begleiter</td>
+            </tr>
+            <tr>
+                <td>Notfallkontakt</td>
+                <td>Optional</td>
+                <td>In deinen Einstellungen gespeichert für schnellen Zugriff</td>
+            </tr>
+        </table>
+
+        <h3>3.2 Durch die App-Nutzung erzeugte Daten</h3>
+        <table>
+            <tr>
+                <th>Daten</th>
+                <th>Zweck</th>
+            </tr>
+            <tr>
+                <td>Check-In-Zeitstempel</td>
+                <td>Aufzeichnung deiner Check-Ins (Kernfunktionalität)</td>
+            </tr>
+            <tr>
+                <td>Streak- und Fortschrittsdaten</td>
+                <td>Verfolgen deiner Check-In-Konsistenz</td>
+            </tr>
+            <tr>
+                <td>Benutzerrolle (Check-In-Nutzer/Begleiter)</td>
+                <td>Bestimmung der angezeigten Funktionen</td>
+            </tr>
+            <tr>
+                <td>Erinnerungszeit</td>
+                <td>Planung deiner täglichen Check-In-Erinnerung</td>
+            </tr>
+            <tr>
+                <td>In-App-Kaufhistorie</td>
+                <td>Aufzeichnung freiwilliger Trinkgeld-Beiträge</td>
+            </tr>
+        </table>
+
+        <h3>3.3 Technische Daten</h3>
+        <table>
+            <tr>
+                <th>Daten</th>
+                <th>Zweck</th>
+            </tr>
+            <tr>
+                <td>Anonyme Benutzer-ID</td>
+                <td>Identifizierung deines Kontos (Firebase Authentication)</td>
+            </tr>
+            <tr>
+                <td>Geräte-Token (FCM)</td>
+                <td>Zustellung von Push-Benachrichtigungen</td>
+            </tr>
+            <tr>
+                <td>Absturzberichte</td>
+                <td>Erkennung und Behebung von App-Abstürzen (über Sentry)</td>
+            </tr>
+            <tr>
+                <td>Leistungsdaten</td>
+                <td>Überwachung der App-Performance (über Sentry)</td>
+            </tr>
+        </table>
+
+        <h2>4. Wie wir deine Daten verwenden</h2>
+        <p>Alle Daten werden ausschließlich für die <strong>App-Funktionalität</strong> verwendet:</p>
+        <ul>
+            <li>Verarbeitung deiner täglichen Check-Ins und Pflege deiner Streaks</li>
+            <li>Senden von Push-Benachrichtigungen an deine Begleiter bei verpasstem Check-In</li>
+            <li>Zustellung von Erinnerungsbenachrichtigungen zu deiner bevorzugten Zeit</li>
+            <li>Verarbeitung von Trinkgeld-Käufen über Apples StoreKit</li>
+            <li>Diagnose von Abstürzen und Verbesserung der App-Stabilität</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong>Wir verwenden deine Daten NICHT für:</strong> Werbung, Marketing, Analyse, Profiling, Datenhandel oder jegliche Form von Tracking über Apps oder Websites hinweg.</p>
+        </div>
+
+        <h2>5. Rechtsgrundlage (Art. 6 DSGVO)</h2>
+        <p>Die Verarbeitung deiner Daten erfolgt auf Grundlage von:</p>
+        <ul>
+            <li><strong>Art. 6 Abs. 1 lit. b DSGVO</strong> — Vertragserfüllung: Die Datenverarbeitung ist erforderlich, um die App-Funktionen bereitzustellen, die du nutzt (Check-Ins, Benachrichtigungen, Streaks).</li>
+            <li><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> — Berechtigtes Interesse: Absturz- und Leistungsüberwachung zur Sicherstellung der App-Stabilität.</li>
+        </ul>
+
+        <h2>6. Drittanbieter-Dienste</h2>
+        <p>LifeSignal nutzt folgende Drittanbieter-Dienste:</p>
+
+        <h3>Firebase (Google)</h3>
+        <ul>
+            <li><strong>Firebase Authentication:</strong> Anonyme Benutzerauthentifizierung</li>
+            <li><strong>Cloud Firestore:</strong> Datenbank für Check-In-Daten, Benutzerprofile und Begleiter-Beziehungen</li>
+            <li><strong>Firebase Cloud Messaging (FCM):</strong> Push-Benachrichtigungen</li>
+            <li><strong>Firebase Cloud Functions:</strong> Serverseitige Logik für verpasste Check-In-Erkennung und Begleiter-Benachrichtigungen</li>
+        </ul>
+        <p>Firebase-Daten werden in der Region <strong>EUR3 (Europa)</strong> gespeichert. Datenschutzerklärung von Firebase: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></p>
+
+        <h3>Sentry</h3>
+        <ul>
+            <li>Absturzmeldungen und Leistungsüberwachung</li>
+            <li>Erfasst Absturzprotokolle, Stack-Traces und Geräteinformationen</li>
+            <li>Es werden keine personenbezogenen Daten an Sentry gesendet</li>
+        </ul>
+        <p>Datenschutzerklärung von Sentry: <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">sentry.io/privacy</a></p>
+
+        <h3>Apple StoreKit</h3>
+        <ul>
+            <li>Verarbeitet In-App-Käufe (Trinkgeld)</li>
+            <li>Zahlungsinformationen werden ausschließlich von Apple verarbeitet — wir sehen oder speichern deine Zahlungsdaten nicht</li>
+        </ul>
+
+        <h2>7. Datenspeicherung und Sicherheit</h2>
+        <p>
+            Deine Daten werden in Google Cloud Firestore in der Region <strong>EUR3 (Europa)</strong> gespeichert. Daten werden bei der Übertragung (TLS) und im Ruhezustand verschlüsselt. Der Zugriff auf die Datenbank wird durch Firebase Security Rules geschützt, die sicherstellen, dass Benutzer nur ihre eigenen Daten lesen und schreiben können.
+        </p>
+
+        <h2>8. Speicherdauer</h2>
+        <p>
+            Deine Daten werden aufbewahrt, solange dein anonymes Konto existiert. Da es keinen Anmeldemechanismus gibt, bleibt dein Konto auf deinem Gerät bestehen, bis du entweder:
+        </p>
+        <ul>
+            <li>Die App deinstallierst (deine anonyme UID geht verloren, serverseitige Daten bleiben bestehen, bis sie manuell bereinigt werden)</li>
+            <li>Die Löschung deiner Daten beantragst (siehe Abschnitt 10)</li>
+        </ul>
+
+        <h2>9. Datenschutz von Kindern</h2>
+        <p>
+            LifeSignal richtet sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern. Wenn du der Meinung bist, dass ein Kind über die App Daten bereitgestellt hat, kontaktiere uns bitte, und wir werden diese umgehend löschen.
+        </p>
+
+        <h2>10. Deine Rechte (DSGVO)</h2>
+        <p>Gemäß der Datenschutz-Grundverordnung (DSGVO) hast du folgende Rechte:</p>
+        <ul>
+            <li><strong>Auskunft (Art. 15):</strong> Eine Kopie deiner Daten anfordern</li>
+            <li><strong>Berichtigung (Art. 16):</strong> Unrichtige Daten korrigieren lassen</li>
+            <li><strong>Löschung (Art. 17):</strong> Löschung aller deiner Daten verlangen</li>
+            <li><strong>Datenübertragbarkeit (Art. 20):</strong> Deine Daten in einem strukturierten Format erhalten</li>
+            <li><strong>Widerspruch (Art. 21):</strong> Der Verarbeitung deiner Daten widersprechen</li>
+            <li><strong>Beschwerde:</strong> Du hast das Recht, eine Beschwerde bei einer Aufsichtsbehörde einzureichen</li>
+        </ul>
+        <p>
+            Um eines dieser Rechte auszuüben, sende eine E-Mail an <a href="mailto:lifesignal.app@gmail.com">lifesignal.app@gmail.com</a>. Da wir anonyme Authentifizierung verwenden, bitten wir dich möglicherweise, deine anonyme Benutzer-ID anzugeben (verfügbar in den App-Einstellungen), um deine Daten zu lokalisieren.
+        </p>
+
+        <h2>11. Änderungen dieser Datenschutzerklärung</h2>
+        <p>
+            Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Gültigkeitsdatum veröffentlicht. Bei wesentlichen Änderungen werden wir Benutzer über die App benachrichtigen.
+        </p>
+
+        <h2>12. Kontakt</h2>
+        <p>
+            Bei Fragen zu dieser Datenschutzerklärung oder zu deinen Daten kontaktiere uns bitte:
+        </p>
+        <p>
+            Nikolay Matorin<br>
+            E-Mail: <a href="mailto:lifesignal.app@gmail.com">lifesignal.app@gmail.com</a>
+        </p>
+    </div>
+</body>
+</html>
