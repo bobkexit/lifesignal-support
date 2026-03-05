@@ -7,7 +7,7 @@ This repository hosts the support pages and privacy policy for the [LifeSignal: 
 - **Support:** [Report a bug or request a feature](https://github.com/bobkexit/lifesignal-support/issues)
 - **Privacy Policy (EN):** [privacy-policy.html](https://bobkexit.github.io/lifesignal-support/privacy-policy.html)
 - **Datenschutzerklärung (DE):** [datenschutz.html](https://bobkexit.github.io/lifesignal-support/datenschutz.html)
-- **Contact:** lifesignal.app@gmail.com
+- **Contact:** lifesignal.app@protonmail.com
 
 ## About LifeSignal
 
@@ -23,7 +23,7 @@ LifeSignal is a free daily wellness check-in app that creates a real safety net 
 ## Contact
 
 Nikolay Matorin  
-Email: lifesignal.app@gmail.com
+Email: lifesignal.app@protonmail.com
 
 ---
 
